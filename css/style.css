@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
 font-family: "Graffiti font", sans-serif;
-	color: "tan";
+	color: rgb(171,145,102);
 }
 
-header {
+header, .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +16,10 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+}
+.logo{
+width: 15%;
+height: 20%;
 }
 
 nav ul {
