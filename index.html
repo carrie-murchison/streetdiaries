@@ -1,51 +1,39 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Street Diaries Productions</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/63c29614f7.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.cdnfonts.com/css/graffiti-font" rel="stylesheet">
-	<style>
-        @import url('https://fonts.cdnfonts.com/css/graffiti-font');
-        </style>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-+yMHRVxJQG1j8EBvcCQb1Zl3kiqT+P/v8zTJ+Raxjd7VgC9BvLcV1WpgEz6gJtfpzk+DNgU/GR6GGkG6bHPa3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+         <style>
+         @import url('https://fonts.cdnfonts.com/css/graffiti-font');
+         </style>
+         </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#rentals">Rentals</a></li>
-				<li><a href="#merch">Merch</a></li>
-				<li><a href="#mystory">My Story</a></li>
-			</ul>
-		</nav>
-		<div class="logo-container">
-			<img src="images/streetlogo.png" alt="Street Style Logo">
-		</div>
-	</header>
-	<div class="hero-image">
-		<video autoplay muted loop>
-			<source src="images/backplay.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-	
-	</div>
-	<div class="circles">
-  <div class="circle rentals"></div>
-  <div class="circle merch"></div>
-  <div class="circle my-story"></div>
-</div>
+	<video id="bg-video" src="video/street.mp4" autoplay muted></video>
 
-	<footer>
+	<div id="logo">
+		<img src="images/logo.png" alt="Street Diaries Logo">
+	</div>
+
+	<nav id="navbar">
 		<ul>
-			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-			<li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Rentals</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Merchandise</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">My Story</a></li>
 		</ul>
-		<p>&copy; 2023 Street Diaries Productions. All Rights Reserved.</p>
-	</footer>
+	</nav>
+
+	<div class="circle rentals"></div>
+	<div class="circle merch"></div>
+	<div class="circle my-story"></div>
+
+	<div id="footer">
+		<a href="#" class="footer-link"><i class="fab fa-instagram"></i></a>
+		<a href="#" class="footer-link"><i class="fab fa-facebook-f"></i></a>
+		<a href="#" class="footer-link"><i class="fab fa-twitter"></i></a>
+		<p>Street Diaries Productions &copy; 2023</p>
+	</div>
+
 </body>
 </html>
