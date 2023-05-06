@@ -2,7 +2,7 @@ body {
 font-family: "Graffiti font", sans-serif;
 color: "beige"
 }
-      img {
+      .logo {
 	position: relative;
 	justify-content: space-around;
         align-items: center;
