@@ -6,7 +6,7 @@ font-family: "Graffiti font", sans-serif;
 	color: rgb(171,145,102);
 }
 
-header, .logo {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,8 +18,12 @@ header, .logo {
   left: 0;
 }
 .logo {
-width: 75px;
-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 18%;
+  height: 20%;
 }
 
 nav ul {
