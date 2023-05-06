@@ -1,9 +1,6 @@
-body{
-color: "dark-orange";
-}
-
-h1 {
+h1, h2, h3 {
 font-family: "Graffiti font", sans-serif;
+color: "beige"
 }
 
       .container {
@@ -21,9 +18,9 @@ font-family: "Graffiti font", sans-serif;
   overflow: hidden;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
+  background-color: rgb(96,86, 76);
   border-radius: 15px;
-  opacity: 1;
+  opacity: .5;
   transition: transform 0.3s ease-in-out;
       }
 
