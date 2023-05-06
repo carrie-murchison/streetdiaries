@@ -1,146 +1,123 @@
-
-/* Reset CSS */
-
-* {
+/* Set margin and padding to 0 to ensure elements are flush to edges of page */
+html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Global Styles */
-
-body {
-  font-family: 'Graffiti font', sans-serif;
-  font-size: 16px;
-  background-color: #383C4A;
-  color: #DCD1B8;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-
-.video-bg {
-  position: absolute;
+/* Set video background to cover the entire viewport */
+#bgvid {
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
-}
-
-.navbar {
+/* Style the logo */
+#logo {
   position: absolute;
   top: 20px;
-  right: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
-
-.circles {
-  position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-justify-content: space-around;
-  align-items: center;
-  width: 600px;
-  height: 300px;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
+/* Style the circle links */
 .circle {
+  width: 200px;
+  height: 200px;
   position: absolute;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 150px;
-  height: 150px;
+  top: calc(50% - 100px);
+  left: calc(50% - 300px);
+  transform: translateZ(0);
+  transition: all 0.25s ease-out;
+  z-index: 1;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease-in-out;
-}
-
-.circle img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .circle:hover {
-  transform: scale(1.1);
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  transform: translateZ(50px);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.circle:hover img {
-  transform: scale(1.2);
+/* Style the circle link text */
+.circle p {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 70px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
+/* Style the circle link images */
+.rentals {
+  background-image: url("images/rentals.png");
+}
+
+.merch {
+  background-image: url("images/merch.png");
+}
+
+.my-story {
+  background-image: url("images/my-story.png");
+}
+
+/* Style the top nav bar */
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+  height: 60px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Style the footer */
 .footer {
   position: absolute;
   bottom: 0;
+  right: 0;
   left: 0;
-  width: 100%;
-  height: 100px;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #111;
 }
 
+/* Style the footer social media links */
 .footer a {
-  color: #e5e5e5;
-  text-decoration: none;
-  font-size: 24px;
-  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
 }
 
-/* Font Awesome */
-
+/* Style the font awesome icons */
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-instagram:before {
-  content: '\f16d';
-}
-
-.fa-facebook:before {
-  content: '\f09a';
-}
-
-.fa-youtube:before {
-  content: '\f167';
-}
-
-.fa-tiktok:before {
-  content: '\f3ae';
-}
