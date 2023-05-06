@@ -70,7 +70,7 @@ justify-content: space-around;
 }
 
 .circle {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -112,7 +112,7 @@ justify-content: space-around;
 }
 
 .footer a {
-  color: #fff;
+  color: #e5e5e5;
   text-decoration: none;
   font-size: 24px;
   margin-right: 20px;
