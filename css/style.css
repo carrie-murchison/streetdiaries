@@ -1,82 +1,53 @@
+
 body {
+  margin: 0;
+  padding: 0;
 font-family: "Graffiti font", sans-serif;
-color: "beige"
+	color: "tan";
 }
-      .logo {
-	position: relative;
-	justify-content: space-around;
-        align-items: center;
-	width: 150px;
-	height: 150px;
-	display: flex;
-	}
-      .container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 100vh;
-      }
 
-      .box {
-	  position: relative;
-  width: 450px;
-  height: 450px;
-  margin: 0 10px;
-  overflow: hidden;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
-  background-color: rgb(96,86, 76);
-  border-radius: 25px;
-  opacity: 1;
-  transition: transform 0.3s ease-in-out;
-      }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
-      .box:before,
-      .box:after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border: 2px solid #fff;
-        transition: all 0.3s ease;
-      }
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-      .box:before {
-        transform: rotate(60deg);
-      }
+nav ul li {
+  margin: 0 1rem;
+}
 
-      .box:after {
-        transform: rotate(-60deg);
-      }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
 
-      .box:hover:before,
-      .box:hover:after {
-        transform: scale(1.1) rotate(60deg);
-      }
+nav ul li a:hover {
+  color: #d9b310;
+}
 
-      .box a {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        padding-top: 40%;
-        color: #fff;
-        text-decoration: none;
-        transition: all 0.3s ease;
-      }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-      .box:hover a {
-        background-color: rgba(255, 255, 255, 0.5);
-      }
-
-      .box img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
