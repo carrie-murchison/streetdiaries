@@ -15,42 +15,51 @@ font-family: "Graffiti font", sans-serif;
 
       .box {
         position: relative;
-        width: 200px;
-        height: 115.5px;
+        width: 150px;
+        height: 150px;
         margin: 0 10px;
         overflow: hidden;
-        transform: rotate(120deg);
+      }
+
+      .box:before,
+      .box:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #fff;
+        transition: all 0.3s ease;
+      }
+
+      .box:before {
+        transform: rotate(60deg);
+      }
+
+      .box:after {
+        transform: rotate(-60deg);
+      }
+
+      .box:hover:before,
+      .box:hover:after {
+        transform: scale(1.1) rotate(60deg);
       }
 
       .box a {
         display: block;
         position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         text-align: center;
-        padding-top: 20%;
-        transform: rotate(-120deg);
+        padding-top: 40%;
         color: #fff;
         text-decoration: none;
         transition: all 0.3s ease;
       }
 
-      .box a:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      .box:hover a {
         background-color: rgba(255, 255, 255, 0.5);
-        border: 2px solid #fff;
-      }
-
-      .box:before {
-        content: "";
-        position: absolute;
-        top: -57.75px;
-        left: 0;
-        width: 100%;
-        height: 115.5px;
-        background: #fff;
-        transform: rotate(-60deg);
-        transition: all 0.3s ease;
       }
 
       .box img {
@@ -60,5 +69,4 @@ font-family: "Graffiti font", sans-serif;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transform: rotate(-60deg) scale(1.2);
       }
