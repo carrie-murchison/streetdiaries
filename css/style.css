@@ -2,7 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Graffiti font', sans-serif;                                              
+  font-family: 'Graffiti font', sans-serif;   
+  color: #bbbbbb
 }
 
 #video-background {
