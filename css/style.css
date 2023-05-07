@@ -54,7 +54,7 @@ body {
 .circle-container {
   position: absolute;
   top: 50%;
-  left: 33%;
+  left: 30%;
   z-index: 1;
  padding: 20px;
 }
@@ -118,7 +118,7 @@ body {
   float: left
 }
 .copy {
- margin-left: 50px;
+ margin-left: 150px;
 }
 
 .footer-link:hover {
