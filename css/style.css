@@ -21,7 +21,7 @@ body {
 /* Set logo styles */
 #logo {
   position: absolute;
-  top: 20px;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -59,7 +59,7 @@ body {
 
 .circle-container {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -149,6 +149,9 @@ body {
     height: 150px;
     margin: 5px;
   }
+ .copy {
+  margin-left: 40%;
+ }
 
 
 }
