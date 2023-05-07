@@ -141,3 +141,13 @@ body {
 .footer-link:hover {
   color: #bbb;
 }
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 767px) {
+  .circle {
+    display: block;
+    margin: 20px auto;
+  }
+
+
+}
