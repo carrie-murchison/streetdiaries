@@ -56,7 +56,7 @@ body {
 .circle-container {
   position: absolute;
   top: 50%;
- left: 50%;
+  left: 33%;
   z-index: 1;
 }
 
@@ -64,13 +64,14 @@ body {
 /* Set circle styles */
 .circle {
   z-index: 1;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 3200px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   transition: all 0.2s ease-in-out;
+  padding: 25px;
   display: inline-block;
 }
 
