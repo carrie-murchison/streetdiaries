@@ -133,6 +133,7 @@ footer {
   font-size: 18px;
  float: left;
  bottom: 0;
+ left: 65%
  
 }
 
@@ -155,6 +156,7 @@ footer {
  .copy {
  bottom: 0;
  right: 0;
+  left: 0;
   justify-content: right;
   align-items: right;
  }
