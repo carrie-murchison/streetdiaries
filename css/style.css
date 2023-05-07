@@ -55,7 +55,12 @@ body {
   z-index: 1;
 }
 
+
+/* Set circle styles */
 .circle {
+  position: absolute;
+  top: 70%;
+  z-index: 1;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -63,24 +68,24 @@ body {
   background-position: center;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   transition: all 0.2s ease-in-out;
-  position: absolute;
- padding: 5;
-   display: flex;
-  transform: translate(-50%, -50%);
+  display: inline-block;
 }
 
 .rentals {
   background-image: url("../images/rentals.png");
- width: 100%;
+  float: left;
 }
 
 .merch {
   background-image: url("../images/merch.png");
+  float: left;
 }
 
 .my-story {
   background-image: url("../images/my-story.png");
+  float: left;
 }
+
 
 .circle:hover {
   transform: translate(-50%, -50%) scale(1.1);
