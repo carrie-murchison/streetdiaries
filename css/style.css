@@ -21,7 +21,7 @@ body {
 /* Set logo styles */
 #logo {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -154,7 +154,7 @@ body {
    float: left;
   }
  .copy {
-  margin-left: 35%;
+  margin-left: 30%;
  }
 
 
