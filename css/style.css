@@ -70,8 +70,8 @@ body {
 /* Set circle styles */
 .circle {
   z-index: 1;
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 325px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -102,14 +102,14 @@ body {
 
 .circle:hover {
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
- width: 250px;
- height: 250px;
+ width: 300px;
+ height: 300px;
 }
 
 /* Set footer styles */
 #foot {
   position: absolute;
-  bottom: 2%;
+  bottom: 0;
   left: 5%;
   width: 100%;
   padding: 10px;
@@ -120,7 +120,7 @@ body {
 }
 
 .foot-item {
-  margin-right: 25px;
+   margin-right: 25px;
   color: white;
   text-decoration: none;
   font-size: 50px;
