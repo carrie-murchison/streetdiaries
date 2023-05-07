@@ -42,6 +42,7 @@ body {
 }
 
 .nav-item {
+  font-family: 'Graffiti font', sans-serif;
   margin: 20px;
  float: left;
 }
@@ -98,7 +99,7 @@ body {
 }
 
 /* Set footer styles */
-#footer {
+#foot {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -106,16 +107,17 @@ body {
   padding: 20px;
   background-color: #222;
   z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  justify-content: right;
+  align-items: right;
 }
 
-.footer-link {
+.foot-item {
+ font-family: 'Graffiti font', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
-  margin-right: 20px;
+ float: left
 }
 
 .footer-link:hover {
