@@ -114,10 +114,14 @@ body {
   font-family: 'Graffiti font', sans-serif;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 40px;
   float: left;
 }
 .copy {
+   font-family: 'Graffiti font', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
  margin-left: 150px;
  float: right;
 }
