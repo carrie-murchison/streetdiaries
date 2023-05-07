@@ -31,7 +31,7 @@ body {
 #navbar {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5%;
   width: 100%;
   z-index: 1;
   display:inline-block;
@@ -54,7 +54,7 @@ body {
 .circle-container {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 25%;
   z-index: 1;
  padding: 20px;
 }
@@ -116,7 +116,7 @@ body {
   margin-right: 20px;
   color: white;
   text-decoration: none;
-  font-size: 75px;
+  font-size: 150px;
   float: left;
 }
 .copy {
@@ -124,7 +124,9 @@ body {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  float: right;
+ margin-left: 400px;
+ float: left;
+ 
 }
 
 .footer-link:hover {
