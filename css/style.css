@@ -106,7 +106,7 @@ body {
 }
 
 /* Set footer styles */
-#foot {
+footer {
   position: absolute;
   bottom: 0;
   left: 5%;
@@ -156,6 +156,8 @@ body {
  .copy {
  bottom: 0;
  right: 0;
+  justify-content: right;
+  align-items: right;
  }
 
 
