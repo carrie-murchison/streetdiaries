@@ -62,7 +62,6 @@ body {
 
 /* Set circle styles */
 .circle {
- margin-right: 35px;
   z-index: 1;
   width: 300px;
   height: 300px;
@@ -77,11 +76,15 @@ body {
 .rentals {
   background-image: url("../images/rentals.png");
   float: left;
+  margin-right: 35px;
+
 }
 
 .merch {
   background-image: url("../images/merch.png");
   float: left;
+  margin-right: 35px;
+
 }
 
 .my-story {
@@ -113,16 +116,15 @@ body {
   margin-right: 20px;
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 75px;
   float: left;
 }
 .copy {
-   font-family: 'Graffiti font', sans-serif;
+  font-family: 'Graffiti font', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
- margin-left: 150px;
- float: right;
+  float: right;
 }
 
 .footer-link:hover {
