@@ -58,7 +58,6 @@ body {
 
 /* Set circle styles */
 .circle {
-  position: absolute;
   top: 70%;
   z-index: 1;
   width: 200px;
