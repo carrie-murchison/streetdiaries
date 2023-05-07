@@ -62,7 +62,7 @@ body {
 
 /* Set circle styles */
 .circle {
- margin-right: 25px;
+ margin-right: 35px;
   z-index: 1;
   width: 300px;
   height: 300px;
@@ -116,6 +116,9 @@ body {
   text-decoration: none;
   font-size: 18px;
   float: left
+}
+.copy {
+ margin-left: 50px;
 }
 
 .footer-link:hover {
