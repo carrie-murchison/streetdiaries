@@ -57,21 +57,19 @@ body {
   font-size: 18px;
 }
 
-/* Set circle styles */
 .circle-container {
   position: absolute;
   top: 50%;
-  left: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
- padding: 20px;
 }
 
-
-/* Set circle styles */
 .circle {
   z-index: 1;
-  width: 325px;
-  height: 325px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -80,17 +78,18 @@ body {
   display: inline-block;
 }
 
+
 .rentals {
   background-image: url("../images/rentals.png");
   float: left;
-  margin-right: 45px;
+   
 
 }
 
 .merch {
   background-image: url("../images/merch.png");
   float: left;
-  margin-right: 45px;
+ 
 
 }
 
@@ -146,7 +145,9 @@ body {
 @media only screen and (max-width: 767px) {
   .circle {
     display: block;
-    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
   }
 
 
