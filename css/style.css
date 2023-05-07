@@ -70,16 +70,16 @@ body {
 }
 
 .rentals {
-  background-image: url("images/rentals.png");
+  background-image: url("../images/rentals.png");
  width: 100%;
 }
 
 .merch {
-  background-image: url("images/merch.png");
+  background-image: url("../images/merch.png");
 }
 
 .my-story {
-  background-image: url("images/my-story.png");
+  background-image: url("../images/my-story.png");
 }
 
 .circle:hover {
