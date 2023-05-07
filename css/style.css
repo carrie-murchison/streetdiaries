@@ -30,13 +30,10 @@ body {
 /* Set navigation bar styles */
 #navbar {
   position: absolute;
-  top: 0;
-  left: 0;
   transform: translate(-50%, -50%);
   z-index: -1;
   display: flex;
   justify-content: left;
-  align-items: left;
 }
 
 .nav-item {
@@ -67,11 +64,13 @@ body {
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   transition: all 0.2s ease-in-out;
   position: absolute;
+ padding: 5;
   transform: translate(-50%, -50%);
 }
 
 .rentals {
   background-image: url("images/rentals.png");
+ width: 100%;
 }
 
 .merch {
