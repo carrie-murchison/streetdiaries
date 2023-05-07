@@ -21,7 +21,7 @@ body {
 /* Set logo styles */
 #logo {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -143,11 +143,15 @@ body {
 
 /* Media Query for Small Screens */
 @media only screen and (max-width: 767px) {
+ .circle-container {
+      display: block;
+
+ }
   .circle {
-    display: block;
     width: 150px;
     height: 150px;
     margin: 5px;
+   float: left;
   }
  .copy {
   margin-left: 40%;
