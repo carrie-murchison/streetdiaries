@@ -63,6 +63,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+   display: inline-block;
+
 }
 
 .circle {
@@ -75,27 +77,24 @@ body {
   background-position: center;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   transition: all 0.2s ease-in-out;
-  display: inline-block;
+   float: left;
 }
 
 
 .rentals {
   background-image: url("../images/rentals.png");
-  float: left;
    
 
 }
 
 .merch {
   background-image: url("../images/merch.png");
-  float: left;
  
 
 }
 
 .my-story {
   background-image: url("../images/my-story.png");
-  float: left;
 }
 
 
