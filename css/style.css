@@ -61,7 +61,7 @@ body {
 .circle-container {
   position: absolute;
   top: 50%;
-  left: 27%;
+  left: 28%;
   z-index: 1;
  padding: 20px;
 }
@@ -125,6 +125,7 @@ body {
   text-decoration: none;
   font-size: 50px;
   float: left;
+  bottom: 5%;
 }
 .copy {
   font-family: 'Graffiti font', sans-serif;
