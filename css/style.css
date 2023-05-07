@@ -30,7 +30,7 @@ body {
 /* Set navigation bar styles */
 #navbar {
   position: absolute;
-  top: 0;
+  top: 2%;
   left: 5%;
   width: 100%;
   z-index: 1;
@@ -102,10 +102,10 @@ body {
 /* Set footer styles */
 #foot {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 2%;
+  left: 5%;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   z-index: 1;
   display: inline-block;
   justify-content: left;
@@ -116,7 +116,7 @@ body {
   margin-right: 20px;
   color: white;
   text-decoration: none;
-  font-size: 150px;
+  font-size: 100px;
   float: left;
 }
 .copy {
